@@ -26,14 +26,15 @@ export default new Vuex.Store({
       state.events = events
     }
   },
+  //NB: payload in actions or mutations can be single variable _OR_ object
   actions: {
     createEvent({ commit }, event) {
       return EventService.postEvent(event).then(() => {
         commit('ADD_EVENT', event)
       })
     },
-    fetchEvents({ commit }) {
-      EventService.getEvents()
+    fetchEvents({ commit }, { perPage, page }) {
+      EventService.getEvents(perPage, page)
         .then(response => {
           commit('SET_EVENTS', response.data)
         })
