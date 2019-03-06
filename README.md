@@ -40,3 +40,33 @@ npm run build
 ```
 npm run lint
 ```
+
+### setup & startup notes
+
+```
+Notes: had to reinstall npm from scratch.
+npm --version
+python --version
+
+git config --get remote.origin.url
+git remote show origin
+
+npm install -g json-server
+npm install --save vuejs-datepicker
+
+
+npm list -g --depth=0
+
+json-server --watch db.json
+npm install
+yarn serve
+
+
+https://github.com/typicode/json-server#paginate
+
+download new larger db.json and save as db_new.json
+then restart json-server
+
+json-server --watch db_new.json
+
+```
