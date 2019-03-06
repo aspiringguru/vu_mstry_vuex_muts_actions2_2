@@ -69,4 +69,18 @@ then restart json-server
 
 json-server --watch db_new.json
 
+notes for bonus question
+
+1. save eventsTotal to your state
+    - initialise eventsTotal to zero in store.js.
+    -
+2. create a mutation to set it
+    - add mutations method SET_EVENTS_TOTAL to store.js
+        (sets state.eventsTotal to eventsTotal)
+3. call the mutation from fetchEvents
+    - store.js fetchEvents commit SET_EVENTS_TOTAL
+
+4. update EventList.vue
+    - add computed method hasNextPage()to EventList.vue
+
 ```

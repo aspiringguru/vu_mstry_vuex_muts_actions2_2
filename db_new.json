@@ -231,6 +231,24 @@
       "date": "",
       "time": "5:00",
       "attendees": []
+    },
+    {
+      "id": 5359121,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "animal welfare",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "sdasd",
+      "description": "asdadsa",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
     }
   ]
 }
