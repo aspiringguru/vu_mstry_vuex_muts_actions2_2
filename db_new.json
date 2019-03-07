@@ -249,6 +249,24 @@
       "date": "",
       "time": "",
       "attendees": []
+    },
+    {
+      "id": 6783317,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "sustainability",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "aaaaaaaaaaaaa",
+      "description": "aaaaaaaaaaa",
+      "location": "aaaaaaaaaaaaaaaa",
+      "date": "2019-02-28T22:40:00.000Z",
+      "time": "20:00",
+      "attendees": []
     }
   ]
 }

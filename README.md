@@ -83,4 +83,20 @@ notes for bonus question
 4. update EventList.vue
     - add computed method hasNextPage()to EventList.vue
 
+------------------------
+12:30 > update EventShow to use vuex
+1. store the event data in state.
+    edit store.js, add event dictionary.
+2. create a mutation.
+    create SET_EVENT to store the event in state
+3. create action to call api and mutation.
+    create action fetchEvent, reuse code that was in EventShow.vue export default created
+4. cleanup and connecting above
+    in EventShow.vue, replace import EventService with import mapState from vuex
+    delete export default data
+    in EventShow.vue, delete data,
+    in EventShow.vue created, call action fetchEvent with id.
+    in EventShow.vue created, use mapState helper to access event data.
+
+
 ```
